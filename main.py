@@ -1,7 +1,7 @@
 from PyQt6 import QtWidgets, uic
 from PyQt6.QtWidgets import QApplication, QMainWindow, QMessageBox
 from PyQt6.QtCore import Qt
-
+#Autor: PetusoTwo
 # Funcion para encriptar el texto
 def encriptador_cesar(texto, desplazamiento):
     alphabet = "abcdefghijklmnñopqrstuvwxyz"
@@ -82,7 +82,7 @@ class MainWindow(QMainWindow):
             QMessageBox.information(self, "Exito | PetusoTwo", "Texto copiado al portapapeles")
         else:
             QMessageBox.warning(self, "Error | PetusoTwo", "No hay texto para copiar")
-    
+    #Autor PetusoTwo
     #Funciones para que la ventana se pueda mover#
     def mousePressEvent(self, event):
         if event.button() == Qt.MouseButton.LeftButton:
@@ -102,3 +102,4 @@ app = QApplication([])
 window = MainWindow()
 window.show()
 app.exec()
+#Autor PetusoTwo
