@@ -43,7 +43,7 @@ class MainWindow(QMainWindow):
         self.setWindowFlags(Qt.WindowType.FramelessWindowHint)
         self.setAttribute(Qt.WidgetAttribute.WA_TranslucentBackground)
 
-        # Botones
+        # Conexion de los Botones
         self.encriptar.clicked.connect(self.encriptar_texto)
         self.desencriptar.clicked.connect(self.desencriptar_texto)
         self.copiaText.clicked.connect(self.copiar_texto)
