@@ -33,16 +33,6 @@ La aplicación utiliza el cifrado César para encriptar y desencriptar texto. Pe
 4. **Limpiar Datos:**
    - Elimina el texto ingresado y el texto encriptado o desencriptado de los campos.
 
-## Uso
-
-### Ejecución
-
-- Ejecuta el script de Python para iniciar la aplicación.
-
-```bash
-python nombre_del_script.py
-
-
 Puedes instalar la biblioteca necesaria usando `pip`:
 
 ```bash
